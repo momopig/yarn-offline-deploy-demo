@@ -4,7 +4,7 @@
 One of the main advantages of Yarn is that it can install node_modules from files located in file system. We call it “Offline Mirror” because it mirrors the files downloaded from registry during the first build and stores them locally for future builds.
 
 ## 2. new problem:how to use yarn in local network?
-download yarn.tar.gz into the local repository, and install it in local node_modules directory.
+download [yarn.tar.gz](https://github.com/yarnpkg/yarn/releases) into the local repository, and install it in local node_modules directory.
 `npm install yarn.tar.gz --no-save`
 
 ## 3. usage
