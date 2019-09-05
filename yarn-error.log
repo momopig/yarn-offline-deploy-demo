@@ -2,7 +2,7 @@ Arguments:
   /Users/Jamter/git/nvm/versions/node/v10.15.3/bin/node /Users/Jamter/project/study/yarn-offline-deploy-demo/node_modules/.bin/yarn config list
 
 PATH: 
-  /Users/Jamter/project/study/yarn-offline-deploy-demo/node_modules/.bin:/Users/Jamter/git/nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/sbin:/Users/Jamter/Documents/apache-maven-3.5.0/bin:/Users/Jamter/Documents/apache-maven-3.5.0/bin
+  /Users/Jamter/project/study/yarn-offline-deploy-demo/node_modules/.bin:/Users/Jamter/git/nvm/versions/node/v10.15.3/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/Jamter/project/study/yarn-offline-deploy-demo/node_modules/.bin:/Users/Jamter/git/nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/sbin:/Users/Jamter/Documents/apache-maven-3.5.0/bin:/Users/Jamter/Documents/apache-maven-3.5.0/bin
 
 Yarn version: 
   1.17.3
@@ -29,7 +29,9 @@ npm manifest:
     "description": "",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "install": "sh ./yarn/online-install.sh",
+      "offline-install": "sh ./yarn/offline-install.sh"
     },
     "repository": {
       "type": "git",
