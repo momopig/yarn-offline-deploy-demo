@@ -8,5 +8,7 @@ npx yarn config set registry https://registry.npm.taobao.org
 npx yarn config set yarn-offline-mirror $SH_FILE_PATH/yarn-offline-mirror
 npx yarn config set yarn-offline-mirror-pruning false
 npx yarn cache clean
+# It is advised not to mix package managers in order to avoid resolution inconsistencies caused by unsynchronized lock files. We should remove package-lock.json.
+rm -rf package-lock.json
 npx yarn install
 npx yarn config list
