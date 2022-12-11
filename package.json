@@ -13,7 +13,7 @@
     "url": "git+https://github.com/momopig/yarn-offline-deploy-demo.git"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "pm2": "^3.5.1"
   },
   "author": "",
